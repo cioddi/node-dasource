@@ -1,0 +1,23 @@
+{
+  "name": dasource,
+  "description": "",
+  "keywords": ["api helper"],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fent/node-dasource.git"
+  },
+  "author": "Roly Fentanes (https://github.com/fent)",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*-test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url" : "http://github.com/cioddi/node-dasource/raw/master/LICENSE"
+  }]
+}
